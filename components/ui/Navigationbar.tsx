@@ -7,8 +7,8 @@ import { BookMarkedIcon, Menu, Search, ShoppingBagIcon } from 'lucide-react'
 const navigation = {
   categories: [
     {
-      id: 'women',
-      name: 'Women',
+      id: 'food',
+      name: 'Food',
       featured: [
         {
           name: 'New Arrivals',
@@ -65,8 +65,8 @@ const navigation = {
       ],
     },
     {
-      id: 'men',
-      name: 'Men',
+      id: 'Clothing',
+      name: 'Clothing',
       featured: [
         {
           name: 'New Arrivals',
@@ -122,8 +122,8 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Company', href: '#' },
-    { name: 'Stores', href: '#' },
+    { name: 'Books', href: '#' },
+    { name: 'Banking', href: '#' },
   ],
 }
 
@@ -263,7 +263,7 @@ export default function TailwindNav() {
                 <div className="border-t border-gray-200 px-4 py-6">
                   <a href="#" className="-m-2 flex items-center p-2">
                     <img
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
+                      src="/lsfleg.jpg"
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
@@ -279,7 +279,7 @@ export default function TailwindNav() {
 
       <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
+          Coming to you soon
         </p>
 
         <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -301,7 +301,7 @@ export default function TailwindNav() {
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="/logoLight.png"
                     alt=""
                   />
                 </a>
@@ -421,11 +421,11 @@ export default function TailwindNav() {
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 hover:text-gray-800">
                     <img
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
+                      src="/lsfleg.jpg"
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
+                    <span className="ml-3 block text-sm font-medium">LSL</span>
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div>

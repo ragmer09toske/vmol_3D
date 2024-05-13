@@ -9,6 +9,7 @@ const nextConfig = {
         'subdomain',
         'images.unsplash.com',
         'files.stripe.com',
+        'aceternity.com'
       ], 
     },
   }
