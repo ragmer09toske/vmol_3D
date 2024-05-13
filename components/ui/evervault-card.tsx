@@ -80,8 +80,7 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
   );
 }
 
-const characters =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 export const generateRandomString = (length: number) => {
   let result = "";
   for (let i = 0; i < length; i++) {
